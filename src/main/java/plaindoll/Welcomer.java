@@ -1,5 +1,7 @@
 package plaindoll;
 
+import java.util.Random;
+
 public class Welcomer{
 	public String sayWelcome() {
 		return "Welcome home, good hunter. What is it your desire?";
@@ -14,7 +16,7 @@ public class Welcomer{
 		return "something in the way";
 	}
 	public String sayHunter() {
-    String[] hunterPhrases = {
+       String[] hunterPhrases = {
         "May the good blood guide your way, hunter.",
         "You're a hunter, aren't you? I knew it. That's precisely how I started out!",
         "Ah, sweet child of blood, hunter of beasts, what's left of you now?",
