@@ -15,7 +15,7 @@ public class Welcomer{
 	public String saySome(){
 		return "something in the way";
 	}
-	public String sayHunter() {
+	public String sayHunter2() {
        String[] hunterPhrases = {
         "May the good blood guide your way, hunter.",
         "You're a hunter, aren't you? I knew it. That's precisely how I started out!",
